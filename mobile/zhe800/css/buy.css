@@ -1,0 +1,212 @@
+.clear:before,.clear:after
+{
+    content: '';
+    display: table;
+}
+.clear:after
+{
+    clear: both;
+}
+html
+{
+    font-size: 100px;
+}
+body
+{
+    font-size: 16px;
+    font-family: Î¢ÈíÑÅºÚ, Arial, Helvetica, sans-serif
+background-color: #f5f5f5;
+}
+@media screen and (width: 320px)
+{
+    html {font-size: 50px;}
+}
+@media screen and (width: 375px)
+{
+    html{font-size: 58.59375px}
+}
+@media screen and (width: 414px)
+{
+    html{font-size: 64.6875px}
+}
+@media screen and (width: 480px)
+{
+    html{font-size: 75px}
+}
+@media screen and (width: 720px)
+{
+    html{font-size: 112.5px}
+}
+@media screen and (width: 1024px)
+{
+    html{font-size: 160px}
+}
+@media screen and (width: 360px)
+{
+    html{font-size: 56.25px}
+}
+@media screen and (width: 768px)
+{
+    html{font-size: 120px}
+}
+@media screen and (width: 800px)
+{
+    html{font-size: 125px}
+}
+@media screen and (width: 1280px)
+{
+    html{font-size: 200px}
+}
+a{
+    text-decoration: none;
+}
+.container{
+    background-color: #fff;
+    width: 6.4rem;
+    height: auto;
+}
+.index_header{
+    padding: 0.1rem;
+    background-color: #f2f2f2;
+}
+.index_header_top{
+    width: 6.3rem;
+    height: 0.4rem;
+    background-color: #f2f2f2;
+    position: relative;
+}
+.search{
+    width: 0.2rem;
+    height: 0.2rem;
+    float: left;
+    background: url("../images_live/xiasanjiao.png") 0 0 no-repeat;
+    background-size: 0.2rem auto;
+    /*outline: 1px solid black;*/
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+    transform: rotate(90deg);
+}
+.login{
+    width: 0.2rem;
+    height: 0.2rem;
+    float: right;
+    background: url("../images_live/newhome.png") 0 0 no-repeat;
+    background-size: 0.2rem auto;
+    /*outline: 1px solid black;*/
+    margin-top: 0.1rem;
+    margin-right: 0.3rem;
+}
+.tittle{
+    position: absolute;
+    left:2.3rem;
+    top: 0.05rem;
+    font-size: 0.24rem;
+    color:rgb(102, 102, 102);
+    font-weight: 100;
+}
+.content{
+    background-color: #fff;
+}
+.para4{
+    padding: 0.1rem;
+    width: 6.2rem;
+    background-color: #fff;
+}
+.para4_wrap{
+    background-color: #fff;
+}
+.para4_wrap img{
+    width: 1.3rem;
+    height: 1.3rem;
+    float: left;
+    margin-right: 0.1rem;
+}
+.para4_wrap_right{
+    height: 1.30rem;
+    margin-top: 0.1rem;
+    border-bottom: 0.01rem solid #e4e4e4;
+    /*margin-left: 1.4rem;*/
+}
+.para4_wrap_right p:nth-child(2){
+    margin-top: 0.2rem;
+    margin-bottom: 0.1rem;
+}
+.p_price{
+    color: #e63b53;
+    font-size: 0.22rem;
+}
+
+.para4_wrap_right p:nth-child(3),.para4_wrap_right p:nth-child(4){
+    font-size: 0.14rem;
+    line-height: 0.22rem;
+}
+.content_info{
+    width: 6.2rem;
+    padding: 0.1rem;
+    height: auto;
+    background-color: #fff;
+    /*outline: 0.01rem solid;*/
+}
+.content_info p,.content_info_bottom p{
+    font-size: 0.14rem;
+    margin-bottom: 0.1rem;
+}
+.content_info ul{
+    padding: 0.1rem 0;
+}
+.content_info ul li{
+    float: left;
+    margin-right: 0.1rem;
+}
+.content_info ul li a{
+    display: block;
+    width: 0.9rem;
+    font-size: 0.12rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    color:rgb(102, 102, 102);
+    /*padding: 0 0.1rem;*/
+    text-align: center;
+    border: 0.01rem solid rgb(102, 102, 102);
+    background-color: #f3f3f3;
+    border-radius: 0.05rem;
+}
+.content_info_bottom{
+    margin: 0.1rem;
+    border-top: 0.01rem solid #e4e4e4;
+    padding-top: 0.1rem;
+}
+.count{
+    margin-top: 0.1rem;
+    /*border: 0.01rem solid rgb(102, 102, 102);*/
+}
+.count li{
+    float: left;
+    width: 0.4rem;
+    height: 0.4rem;
+    border: 0.01rem solid rgb(102, 102, 102);
+}
+.count li input,.count li button{
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    outline: none;
+    border: none;
+    background-color: #fff;
+}
+.count li input{
+    height: 0.38rem;
+    text-indent: 0.15rem;
+}
+.footer{
+    width: 6.4rem;
+    height: 0.5rem;
+    background-color: #ef4949;
+    position: fixed;
+    bottom: 0;
+}
+.footer p{
+    text-align: center;
+    line-height: 0.5rem;
+    color: #fff;
+}

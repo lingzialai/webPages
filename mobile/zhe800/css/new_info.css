@@ -1,0 +1,226 @@
+.clear:before,.clear:after
+{
+    content: '';
+    display: table;
+}
+.clear:after
+{
+    clear: both;
+}
+html
+{
+    font-size: 100px;
+}
+body
+{
+    font-size: 16px;
+    font-family:"simsun";
+    font-family:"Microsoft YaHei";
+    background-color: #f5f5f5;
+}
+@media screen and (width: 320px)
+{
+    html {font-size: 50px;}
+}
+@media screen and (width: 375px)
+{
+    html{font-size: 58.59375px}
+}
+@media screen and (width: 414px)
+{
+    html{font-size: 64.6875px}
+}
+@media screen and (width: 480px)
+{
+    html{font-size: 75px}
+}
+@media screen and (width: 720px)
+{
+    html{font-size: 112.5px}
+}
+@media screen and (width: 1024px)
+{
+    html{font-size: 160px}
+}
+@media screen and (width: 360px)
+{
+    html{font-size: 56.25px}
+}
+@media screen and (width: 768px)
+{
+    html{font-size: 120px}
+}
+@media screen and (width: 800px)
+{
+    html{font-size: 125px}
+}
+@media screen and (width: 1280px)
+{
+    html{font-size: 200px}
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 6.4rem;
+    height: auto;
+}
+header{
+    width: 100%;
+    height: 0.9rem;
+    background-color: #fe9acb;
+    position: relative;
+}
+header p{
+    text-align: center;
+    line-height: 0.9rem;
+    font-size: 0.24rem;
+    color: #fff;
+}
+header img{
+    width: 0.36rem;
+    height: 0.62rem;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.15rem;
+}
+.banner{
+    position: relative;
+}
+.banner>img:nth-child(1){
+    width: 6.4rem;
+    height: 6.35rem;
+}
+.banner>img:nth-child(2){
+    position: absolute;
+    right: 0.2rem;
+    top: 0.1rem;
+}
+.describe{
+    padding: 0.2rem 0.3rem;
+    padding-bottom: 0;
+    background-color: #f4f4f4;
+}
+.describe_top>p:nth-child(1){
+    font-size: 0.24rem;
+    color: black;
+    margin-bottom: 0.2rem;
+}
+.describe_top>p:nth-child(2){
+    border-top: 0.01rem solid #e4e4e4;
+    border-bottom: 0.01rem solid #e4e4e4;
+    font-size: 0.24rem;
+    line-height: 0.78rem;
+}
+.describe_top>p:nth-child(2) span{
+    color: red;
+}
+.describe_top>p:nth-child(2) del{
+    color: #d2d2d2;
+    margin-left: 0.1rem;
+}
+.describe_top>p:nth-child(3){
+    font-size: 0.24rem;
+    line-height: 0.78rem;
+    color: grey;
+}
+.describe_top>p:nth-child(3) span{
+    margin-right: 0.3rem;
+}
+.p1{
+    background-color: #fff;
+    line-height: 0.6rem;
+    font-size: 0.22rem;
+    color: black;
+    position: relative;
+    padding: 0 0.3rem;
+}
+.p1 img{
+    position: absolute;
+    right: 0.3rem;
+    top: 0.1rem;
+    width: 0.26rem;
+    height: 0.43rem;
+}
+.p2{
+    background-color: #fff;
+    line-height: 0.6rem;
+    font-size: 0.22rem;
+    padding: 0 0.3rem;
+    margin-top: 0.1rem;
+}
+.p2>span:nth-child(1){
+    color: #fd4fab;
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    border-right: 0.01rem solid #e4e4e4;
+}
+.p2>span:nth-child(2){
+    color: black;
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+.describe_info{
+    background-color: #fff;
+    padding: 0.3rem;
+}
+.describe_info p{
+    font-size: 0.22rem;
+    color: black;
+    margin-bottom: 0.2rem;
+}
+.info_img p{
+    height: 0.4rem;
+    background-color: #efd315;
+    line-height: 0.4rem;
+}
+.info_img p span{
+    background-color: #d0b902;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.3rem;
+    padding: 0 0.2rem;
+}
+.info_img img{
+    width: 6.4rem;
+    height: 7.73rem;
+}
+.footer{
+    height: 1rem;
+    position: fixed;
+    width: 6.4rem;
+    bottom: 0;
+}
+.footer ul li{
+    float: left;
+    width: 33.3333%;
+    height: 1rem;
+    font-size: 0.24rem;
+}
+.footer ul>li:nth-child(1){
+    background-color: #fff;
+}
+.footer ul>li:nth-child(1) img{
+    display: block;
+    width: 0.4rem;
+    height: 0.43rem;
+    margin: 0.1rem auto 0;
+}
+.footer ul>li:nth-child(1) p{
+    color: black;
+    text-align: center;
+}
+.footer ul>li:nth-child(2){
+    background-color: #fe9acb;
+    color: #fff;
+    text-align: center;
+    line-height: 1rem;
+}
+.footer ul>li:nth-child(3){
+    background-color: #ff50aa;
+    color: #fff;
+    text-align: center;
+    line-height: 1rem;
+}

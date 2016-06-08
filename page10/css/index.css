@@ -1,0 +1,115 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 585px;
+    background: url("../images/bg.jpg") top center repeat;
+}
+.header_top{
+    width: 100%;
+    height: 162px;
+}
+.header-top_main{
+    width: 940px;
+    height: 162px;
+    margin: 0 auto;
+    outline: 1px solid red;
+    overflow: hidden;
+}
+.for_heightM{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.logo{
+    /*display: inline-block;*/
+    vertical-align: middle;
+    /*float: left;*/
+}
+.nav{
+    padding: 50px 0 0 0;
+    float: right;
+    overflow: hidden;
+}
+.nav li{
+    float: left;
+    padding-left: 30px;
+}
+.nav li a{
+    width: auto;
+    height: 80px;
+    display: block;
+    /*background: url("../images/menu_icon1.gif") bottom center no-repeat;*/
+    /*border: 1px solid #fff;*/
+}
+.nav li a:hover .span1{
+    color: green;
+}
+.nav li a:hover .span2{
+    color: #fff;
+}
+.nav li a span{
+    display: block;
+    text-align: center;
+}
+.nav li a .span1{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+.nav li a .span2{
+    font-size: 12px;
+    color: #5b5b5b;
+}
+.ico1{
+    background: url("../images/menu_icon1_active.gif") bottom center no-repeat !important;
+}
+.ico1 .span1{
+    color: green !important;
+}
+.ico1 .span2{
+    color: #fff !important;
+}
+.ico1{
+    background: url("../images/menu_icon1_active.gif") bottom center no-repeat !important;
+}
+.ico2{
+    background: url("../images/menu_icon2.gif") bottom center no-repeat !important;
+}
+.ico2:hover{
+    background: url("../images/menu_icon2_active.gif") bottom center no-repeat !important;
+}
+.ico3{
+    background: url("../images/menu_icon3.gif") bottom center no-repeat !important;
+}
+.ico3:hover{
+    background: url("../images/menu_icon3_active.gif") bottom center no-repeat !important;
+}
+.ico4{
+    background: url("../images/menu_icon4.gif") bottom center no-repeat !important;
+}
+.ico4:hover{
+    background: url("../images/menu_icon4_active.gif") bottom center no-repeat !important;
+}
+.ico5{
+    background: url("../images/menu_icon5.gif") bottom center no-repeat !important;
+}
+.ico5:hover{
+    background: url("../images/menu_icon5_active.gif") bottom center no-repeat !important;
+}
+.header_banner{
+    width: 100%;
+    height: 423px;
+    background: url("../images/bg_slider.gif") left top repeat-x;
+}
+.header_banner_main{
+    width: 940px;
+    height: 423px;
+    margin: 0 auto;
+}
